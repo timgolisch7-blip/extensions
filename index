@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro-Tools & Extensions | Tim Golisch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans antialiased flex flex-col min-h-screen">
+    
+    <header class="bg-white shadow-sm border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-800">Tim Golisch <span class="text-gray-400 font-normal">| Digital Tools</span></h1>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-6xl mx-auto px-4 py-12 w-full">
+        <div class="mb-12 text-center md:text-left">
+            <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 mb-4">Focused browser tools.</h2>
+            <p class="text-lg text-gray-600 max-w-2xl">
+                A collection of lightweight extensions built to do exactly one thing. No bloat, no tracking, just utility.
+            </p>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Tool 1: ZoneShift -->
+            <article class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300">
+                <div class="bg-blue-600 h-32 flex items-center justify-center text-white">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <div class="p-6 flex-grow flex flex-col">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">ZoneShift</h3>
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Live</span>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-6 flex-grow">
+                        Change your browser timezone with one click. Built for developers and privacy without breaking web datepickers.
+                    </p>
+                    <a href="#" class="block w-full text-center bg-gray-900 hover:bg-gray-800 text-white font-medium py-2 px-4 rounded transition">
+                        View in Chrome Web Store
+                    </a>
+                </div>
+            </article>
+
+            <!-- Platzhalter 2 -->
+            <article class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col">
+                <div class="bg-gray-200 h-32 flex items-center justify-center text-gray-400">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                </div>
+                <div class="p-6 flex-grow flex flex-col">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Project #2</h3>
+                        <span class="bg-gray-100 text-gray-600 text-xs font-semibold px-2.5 py-0.5 rounded">In development</span>
+                    </div>
+                    <p class="text-gray-500 text-sm mb-6 flex-grow italic">
+                        The next tool is currently being built. Check back soon.
+                    </p>
+                    <button disabled class="block w-full text-center bg-gray-100 text-gray-400 font-medium py-2 px-4 rounded cursor-not-allowed">
+                        Coming soon
+                    </button>
+                </div>
+            </article>
+
+             <!-- Platzhalter 3 -->
+             <article class="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden flex flex-col">
+                <div class="bg-gray-200 h-32 flex items-center justify-center text-gray-400">
+                    <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                <div class="p-6 flex-grow flex flex-col">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-900">Project #3</h3>
+                        <span class="bg-gray-100 text-gray-600 text-xs font-semibold px-2.5 py-0.5 rounded">Ideation</span>
+                    </div>
+                    <p class="text-gray-500 text-sm mb-6 flex-grow italic">
+                        More workflow utilities are in the pipeline.
+                    </p>
+                    <button disabled class="block w-full text-center bg-gray-100 text-gray-400 font-medium py-2 px-4 rounded cursor-not-allowed">
+                        Coming soon
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+            <p>&copy; 2026 Tim Golisch. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="datenschutz.html" class="hover:text-gray-900 transition">Privacy Policy</a>
+                <a href="impressum.html" class="hover:text-gray-900 transition">Imprint</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
